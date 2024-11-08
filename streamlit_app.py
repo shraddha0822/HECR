@@ -5,7 +5,7 @@ from PIL import Image
 import cv2
 
 # Load the saved model
-model = tf.keras.models.load_model('hecr.keras')
+model = tf.keras.models.load_model('hecr.h5')
 
 # Define a dictionary for label mapping
 label_map = {
